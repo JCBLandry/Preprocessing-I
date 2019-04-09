@@ -134,3 +134,11 @@ html,
 body {
   height: 100%;
 }
+.title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 24px;
+}
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
