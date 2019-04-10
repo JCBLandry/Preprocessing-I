@@ -142,8 +142,12 @@ body {
 .container {
   margin: 0 auto;
   width: 600px;
+<<<<<<< HEAD
   border: 1px dashed black;
   padding: 20px;
+=======
+  border: 1px solid black;
+>>>>>>> parent of 223fe16... More formatting
 }
 .flexit {
   display: flex;
@@ -161,6 +165,7 @@ li {
   padding: 10px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 a {
   font-size: 20px;
   border: 1px dashed black;
@@ -176,5 +181,7 @@ a {
 body {
   padding-bottom: 50px;
 }
+=======
+>>>>>>> parent of 223fe16... More formatting
 =======
 >>>>>>> parent of 223fe16... More formatting
