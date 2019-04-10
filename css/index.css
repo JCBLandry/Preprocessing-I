@@ -137,6 +137,7 @@ body {
 .title {
   font-family: 'Permanent Marker', cursive;
   font-size: 24px;
+  border: 1px solid black;
 }
 .container {
   margin: 0 auto;
@@ -144,21 +145,14 @@ body {
   border: 1px dashed black;
   padding: 20px;
 }
-.boxy {
-  font-size: 20px;
-  border: 1px dashed black;
-  margin: 10px;
-  padding: 10px;
-}
 .flexit {
   display: flex;
+  border: 1px solid red;
   justify-content: space-around;
 }
 img {
   width: 300px;
   height: 300px;
-  border: 1px;
-  border-radius: 20px;
 }
 li {
   font-size: 20px;
@@ -166,6 +160,7 @@ li {
   margin: 10px;
   padding: 10px;
 }
+<<<<<<< HEAD
 a {
   font-size: 20px;
   border: 1px dashed black;
@@ -181,3 +176,5 @@ a {
 body {
   padding-bottom: 50px;
 }
+=======
+>>>>>>> parent of 223fe16... More formatting
