@@ -132,7 +132,6 @@ table {
 }
 html,
 body {
-  height: 100%;
   font-family: 'Cuprum', sans-serif;
 }
 .title {
@@ -142,7 +141,8 @@ body {
 .container {
   margin: 0 auto;
   width: 600px;
-  border: 1px solid black;
+  border: 1px dashed black;
+  padding: 20px;
 }
 .boxy {
   font-size: 20px;
@@ -171,4 +171,13 @@ a {
   border: 1px dashed black;
   margin: 10px;
   padding: 10px;
+}
+.wksl {
+  font-size: 30px;
+}
+.space {
+  margin-top: 15px;
+}
+body {
+  padding-bottom: 50px;
 }
