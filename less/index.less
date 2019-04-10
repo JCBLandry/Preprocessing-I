@@ -60,10 +60,13 @@ html, body {
 
 @whimsyfont: 'Permanent Marker', cursive;
 
+nav{
+
+}
+
 .title {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 24px;
-	border: @border;
   }
 .container {
 	margin: 0 auto;
@@ -73,20 +76,30 @@ html, body {
 
   @border: 1px solid black;
 
+  .boxy{
+	font-size: 20px;
+	border: 1px dashed black;
+	margin: 10px;
+	padding: 10px;
+  }
+
   .flexit{
 	  display: flex;
-	  border: 1px solid red;
+	//   border: 1px solid red;
 	  justify-content: space-around;
   }
 
   img {
 	  width: 300px;
 	  height: 300px;
+	  border: 1px;
+	  border-radius: 20px;
   }
 
   li{
-	  font-size: 20px;
-	  border: 1px dashed black;
-	  margin: 10px;
-	  padding: 10px;
+	  .boxy;
+  }
+
+  a{
+.boxy;
   }
